@@ -1,0 +1,15 @@
+Input
+Services to sell. for eg. video editing, Web Development.
+target bids = n
+
+Output
+suggest the best platforms to sell it. and ranking them.
+
+Account setup in platforms done by user.
+
+analyse the page, extract suitable infos amd proposals
+dm them
+next
+....loop work till n
+
+next platform, repeat.
