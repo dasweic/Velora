@@ -129,6 +129,6 @@ browser.open("https://youtube.com")
 
 result = browser.click("#search-button")
 
-ollama pull qwen2.5-vl:7b
+
 
 print(result)
