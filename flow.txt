@@ -13,3 +13,26 @@ next
 ....loop work till n
 
 next platform, repeat.
+
+
+
+
+
+
+
+
+setup python environment,       suggest to use conda.
+
+
+##code in terminal
+
+
+conda create -n veloraENV python=3.11.9
+conda init bash
+source ~/.bashrc                                    //reload the terminal
+conda activate veloraENV
+
+
+##install chromium after installing playwright module
+#in terminal
+playwright install chromium
