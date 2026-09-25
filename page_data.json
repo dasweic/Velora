@@ -1,0 +1,595 @@
+{
+  "page_title": "YouTube",
+  "page_url": "https://www.youtube.com/",
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Back",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Back"
+    },
+    {
+      "tag": "button",
+      "text": "Guide",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Guide"
+    },
+    {
+      "tag": "button",
+      "text": "Skip navigation",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Skip navigation"
+    },
+    {
+      "tag": "button",
+      "text": "Search",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Search"
+    },
+    {
+      "tag": "button",
+      "text": "Search",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Search"
+    },
+    {
+      "tag": "button",
+      "text": "Search with your voice",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Search with your voice"
+    },
+    {
+      "tag": "button",
+      "text": "Settings",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Settings"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Home",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Home"
+    },
+    {
+      "tag": "button",
+      "text": "Shorts",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Shorts"
+    },
+    {
+      "tag": "button",
+      "text": "Subscriptions",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Subscriptions"
+    },
+    {
+      "tag": "button",
+      "text": "You",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "You"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Tap to unmute",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Close",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Close"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Play",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Play"
+    },
+    {
+      "tag": "button",
+      "text": "InfoShopping",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Show cards"
+    },
+    {
+      "tag": "button",
+      "text": "Show cards",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Show cards"
+    },
+    {
+      "tag": "button",
+      "text": "Close",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Close"
+    },
+    {
+      "tag": "button",
+      "text": "More",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "More"
+    },
+    {
+      "tag": "button",
+      "text": "Playlist",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Playlist"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": ""
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": ""
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Close",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Close"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Watch Later",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Watch Later"
+    },
+    {
+      "tag": "button",
+      "text": "Share",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Share"
+    },
+    {
+      "tag": "button",
+      "text": "Copy link",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Copy link"
+    },
+    {
+      "tag": "button",
+      "text": "Close",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Close"
+    },
+    {
+      "tag": "div",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "div",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Play (k)",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Play (k)"
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "a",
+      "text": "Next (SHIFT+n)",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Next (SHIFT+n)"
+    },
+    {
+      "tag": "button",
+      "text": "Mute (m)",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Mute (m)"
+    },
+    {
+      "tag": "div",
+      "text": "/",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Live",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "•",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": true,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "•",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": true,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Subtitles/closed captions (c)",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Subtitles/closed captions (c)"
+    },
+    {
+      "tag": "button",
+      "text": "Settings",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Settings"
+    },
+    {
+      "tag": "button",
+      "text": "Cinema mode (t)",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Cinema mode (t)"
+    },
+    {
+      "tag": "button",
+      "text": "Play on TV",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Play on TV"
+    },
+    {
+      "tag": "button",
+      "text": "Full screen (f)",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Full screen (f)"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Collapse",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Collapse"
+    },
+    {
+      "tag": "button",
+      "text": "Show more",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://www.youtube.com/",
+      "target": null,
+      "aria_label": ""
+    },
+    {
+      "text": "Sign in",
+      "href": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en-GB&ec=65620",
+      "target": null,
+      "aria_label": "Sign in"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/",
+      "target": null,
+      "aria_label": ""
+    },
+    {
+      "text": "Home",
+      "href": "https://www.youtube.com/",
+      "target": null,
+      "aria_label": "Home"
+    },
+    {
+      "text": "Shorts",
+      "href": "https://www.youtube.com/shorts/",
+      "target": null,
+      "aria_label": "Shorts"
+    },
+    {
+      "text": "Subscriptions",
+      "href": "https://www.youtube.com/feed/subscriptions",
+      "target": null,
+      "aria_label": "Subscriptions"
+    },
+    {
+      "text": "You",
+      "href": "https://www.youtube.com/feed/you",
+      "target": null,
+      "aria_label": "You"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/",
+      "target": "_blank",
+      "aria_label": null
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "input",
+      "type": "file",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "value": "",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "search_query",
+      "id": null,
+      "placeholder": "Search",
+      "value": "",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "value": "on",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    }
+  ]
+}

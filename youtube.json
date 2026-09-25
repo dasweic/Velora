@@ -1,0 +1,107 @@
+{
+  "page_title": "YouTube",
+  "page_url": "https://www.youtube.com/",
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Back",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Back"
+    },
+    {
+      "tag": "button",
+      "text": "Guide",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Guide"
+    },
+    {
+      "tag": "button",
+      "text": "Search",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Search"
+    },
+    {
+      "tag": "button",
+      "text": "Settings",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Settings"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Home",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Home"
+    },
+    {
+      "tag": "button",
+      "text": "Shorts",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Shorts"
+    },
+    {
+      "tag": "button",
+      "text": "Subscriptions",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Subscriptions"
+    },
+    {
+      "tag": "button",
+      "text": "You",
+      "type": "button",
+      "id": "ally-menu-button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "You"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "button",
+      "text": "Collapse",
+      "type": null,
+      "id": "button",
+      "name": null,
+      "disabled": false,
+      "aria_label": "Collapse"
+    }
+  ],
+  "links": [],
+  "inputs": []
+}

@@ -1,0 +1,407 @@
+{
+  "page_title": "Google",
+  "page_url": "https://www.google.com/",
+  "buttons": [
+    {
+      "tag": "a",
+      "text": "Google apps",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Google apps"
+    },
+    {
+      "tag": "div",
+      "text": "Search by voice",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Search by voice"
+    },
+    {
+      "tag": "div",
+      "text": "Search by image",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Search by image"
+    },
+    {
+      "tag": "div",
+      "text": "Close voice search",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Close voice search"
+    },
+    {
+      "tag": "div",
+      "text": "Allow mic accessTo start searching, let Google use your microphoneVoice search stoppedClick anywhere to try againNo network connectionClick anywhere to try again",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "span",
+      "text": "Close Choose what you’re giving feedback on",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "Close Choose what you’re giving feedback on"
+    },
+    {
+      "tag": "div",
+      "text": ".U48fD{display:block;padding:16px;padding-top:0;margin-top:16px;position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;line-height:18px;text-overflow:ellipsis;white-space:nowrap}.TQc1id .U48fD{margin-top:16px}.U48fD.df13ud{margin-top:16px}.U48fD.TOQyFc{margin-top:0}.U48fD.p8FEIf{padding-bottom:0}.U48fD.ke7M4{padding-left:0;padding-right:0}.jRKCUd.p8FEIf::before{bottom:-4px}.jRKCUd::before{bottom:12px;content:'';left:16px;position:absolute;right:16px;top:-4px}a.jRKCUd:hover{text-decoration:none}.ZFiwCf{display:flex;align-items:center;justify-content:center;position:relative;z-index:0;margin:0 auto;width:100%;border-radius:18px;outline:1px solid transparent;color:var(--bcxd3b);background-color:var(--MV2sG);font-size:var(--hbmnje);font-family:var(--qR8X0);line-height:var(--CbdmE);font-weight:var(--Oycjt);max-width:372px;min-height:40px;border-radius:20px}@media (forced-colors:active){.ZFiwCf{border:1px solid transparent}}.TQc1id .ZFiwCf{max-width:unset}.Zjtggb .ZFiwCf{max-width:unset}.ZFiwCf::after{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:inherit;z-index:-1}.ZFiwCf:hover::after{content:'';background-color:rgb(from var(--YLNNHc) r g b/0.0824)}.ZFiwCf:active::after{content:'';background-color:rgb(from var(--YLNNHc) r g b/0.224)}.nCFUpc .ZFiwCf{width:100%}.Bi9oQd{background-color:var(--gS5jXb);margin-top:18px;position:absolute;border:0;height:1px;left:0;width:100%;margin-top:20px}.TQc1id .Bi9oQd{display:none}.kC8B4e .Bi9oQd{display:none}.w2fKdd svg{width:auto}.w2fKdd{color:var(--amnPwe)}.LGwnxb{-webkit-line-clamp:1;word-break:break-all;width:auto;padding-left:0;padding-right:8px;max-width:calc(100% - 64px)}.LGwnxb:empty{padding-right:0}.LGwnxb span,.LGwnxb div{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:auto}See more",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": "See more"
+    },
+    {
+      "tag": "div",
+      "text": ".JCHpcb:hover,.LvqzR .JCHpcb{color:#1558d6;text-decoration:underline}.JCHpcb{color:#70757a;font:13px Arial,sans-serif;cursor:pointer;align-self:center}@media (hover:hover){.sbai{visibility:hidden}.sbhl .sbai{visibility:inherit}}Delete",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "text": "Google Search",
+      "type": "submit",
+      "id": null,
+      "name": "btnK",
+      "disabled": false,
+      "aria_label": "Google Search"
+    },
+    {
+      "tag": "input",
+      "text": "I'm Feeling Lucky",
+      "type": "submit",
+      "id": null,
+      "name": "btnI",
+      "disabled": false,
+      "aria_label": "I'm Feeling Lucky"
+    },
+    {
+      "tag": "div",
+      "text": "Report inappropriate predictions",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "text": "Google Search",
+      "type": "submit",
+      "id": null,
+      "name": "btnK",
+      "disabled": false,
+      "aria_label": "Google Search"
+    },
+    {
+      "tag": "input",
+      "text": "I'm Feeling Lucky",
+      "type": "submit",
+      "id": null,
+      "name": "btnI",
+      "disabled": false,
+      "aria_label": "I'm Feeling Lucky"
+    },
+    {
+      "tag": "div",
+      "text": "Settings",
+      "type": null,
+      "id": null,
+      "name": null,
+      "disabled": false,
+      "aria_label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "About",
+      "href": "https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Store",
+      "href": "https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Gmail",
+      "href": "https://mail.google.com/mail/&ogbl",
+      "target": "_top",
+      "aria_label": "Gmail "
+    },
+    {
+      "text": "Images",
+      "href": "https://www.google.com/imghp?hl=en&ogbl",
+      "target": "_top",
+      "aria_label": "Search for Images "
+    },
+    {
+      "text": "",
+      "href": "https://www.google.co.in/intl/en/about/products",
+      "target": null,
+      "aria_label": "Google apps"
+    },
+    {
+      "text": "Sign in",
+      "href": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e",
+      "target": "_top",
+      "aria_label": "Sign in"
+    },
+    {
+      "text": "हिन्दी",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBY",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "বাংলা",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBc",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "తెలుగు",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBg",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "मराठी",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBk",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "தமிழ்",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBo",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "ગુજરાતી",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBs",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "ಕನ್ನಡ",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCBw",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "മലയാളം",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCB0",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "ਪੰਜਾਬੀ",
+      "href": "https://www.google.com/setprefs?sig=0_3aqtIC91j9WTE7rfBvoSxMfT0wg%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjH76K_v4mXAxUEqpUCHYLDO-gQ2ZgBCB4",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Advertising",
+      "href": "https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Business",
+      "href": "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "How Search works",
+      "href": "https://google.com/search/howsearchworks/?fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Privacy",
+      "href": "https://policies.google.com/privacy?hl=en-IN&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Terms",
+      "href": "https://policies.google.com/terms?hl=en-IN&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Search settings",
+      "href": "https://www.google.com/preferences?hl=en-IN&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Advanced search",
+      "href": "https://www.google.com/advanced_search?hl=en-IN&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Your data in Search",
+      "href": "https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Search history",
+      "href": "https://www.google.com/history/optout?hl=en-IN&fg=1",
+      "target": null,
+      "aria_label": null
+    },
+    {
+      "text": "Search help",
+      "href": "https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1",
+      "target": null,
+      "aria_label": null
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "textarea",
+      "type": null,
+      "name": "q",
+      "id": "ti6dpd",
+      "placeholder": "",
+      "value": "",
+      "required": false,
+      "disabled": false,
+      "aria_label": "Search"
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "btnK",
+      "id": null,
+      "placeholder": null,
+      "value": "Google Search",
+      "required": false,
+      "disabled": false,
+      "aria_label": "Google Search"
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "btnI",
+      "id": null,
+      "placeholder": null,
+      "value": "I'm Feeling Lucky",
+      "required": false,
+      "disabled": false,
+      "aria_label": "I'm Feeling Lucky"
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "btnK",
+      "id": null,
+      "placeholder": null,
+      "value": "Google Search",
+      "required": false,
+      "disabled": false,
+      "aria_label": "Google Search"
+    },
+    {
+      "tag": "input",
+      "type": "submit",
+      "name": "btnI",
+      "id": null,
+      "placeholder": null,
+      "value": "I'm Feeling Lucky",
+      "required": false,
+      "disabled": false,
+      "aria_label": "I'm Feeling Lucky"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "sca_esv",
+      "id": null,
+      "placeholder": null,
+      "value": "f490e9746bfcf51c",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "sxsrf",
+      "id": null,
+      "placeholder": null,
+      "value": "APpeQnsrHfwoIkgGdKdv0AgRN6cwSLMGLQ:1790331211810",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "source",
+      "id": null,
+      "placeholder": null,
+      "value": "hp",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "ei",
+      "id": null,
+      "placeholder": null,
+      "value": "S0m2aoeeMITU1sQPgofvwQ4",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "iflsig",
+      "id": null,
+      "placeholder": null,
+      "value": "ABILxe8AAAAAarZXWyk-2QNBr6OzSIhx4J9yMbOJMREs",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    },
+    {
+      "tag": "textarea",
+      "type": null,
+      "name": "csi",
+      "id": null,
+      "placeholder": null,
+      "value": "",
+      "required": false,
+      "disabled": false,
+      "aria_label": null
+    }
+  ]
+}

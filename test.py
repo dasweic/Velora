@@ -1,161 +1,134 @@
+import requests
+import websocket
 import json
-from pathlib import Path
-from playwright.sync_api import sync_playwright
+import time
+import webbrowser
 
 
-def save_page(url, filename="page.json"):
+CDP_URL = "http://localhost:9222"
 
-    with sync_playwright() as p:
 
-        # Open Chromium
-        browser = p.chromium.launch(headless=False)
+class Browser:
 
-        page = browser.new_page()
+    def __init__(self):
+        self.ws = None
+        self.message_id = 0
 
-        # Open website
-        page.goto(url, wait_until="domcontentloaded")
-
-        # Wait for JavaScript content
-        page.wait_for_timeout(2000)
-
-        def get_elements(selector):
-
-            elements = page.locator(selector)
-            result = []
-
-            for i in range(elements.count()):
-
-                element = elements.nth(i)
-
-                try:
-                    data = element.evaluate("""
-                    (el) => {
-
-                        function get_selector(el) {
-
-                            if (el.id)
-                                return "#" + CSS.escape(el.id);
-
-                            let path = [];
-
-                            while (el && el.nodeType === 1) {
-
-                                let selector =
-                                    el.tagName.toLowerCase();
-
-                                if (el.classList.length) {
-                                    selector += "." +
-                                        [...el.classList]
-                                        .map(c => CSS.escape(c))
-                                        .join(".");
-                                }
-
-                                let index = 1;
-                                let sibling =
-                                    el.previousElementSibling;
-
-                                while (sibling) {
-
-                                    if (
-                                        sibling.tagName ===
-                                        el.tagName
-                                    ) {
-                                        index++;
-                                    }
-
-                                    sibling =
-                                        sibling.previousElementSibling;
-                                }
-
-                                if (index > 1) {
-                                    selector +=
-                                        `:nth-of-type(${index})`;
-                                }
-
-                                path.unshift(selector);
-
-                                if (el.id)
-                                    break;
-
-                                el = el.parentElement;
-                            }
-
-                            return path.join(" > ");
-                        }
-
-                        return {
-
-                            tag: el.tagName.toLowerCase(),
-
-                            text:
-                                (el.innerText || "").trim(),
-
-                            id:
-                                el.id || null,
-
-                            name:
-                                el.getAttribute("name"),
-
-                            type:
-                                el.getAttribute("type"),
-
-                            placeholder:
-                                el.getAttribute("placeholder"),
-
-                            href:
-                                el.href || null,
-
-                            selector:
-                                get_selector(el)
-                        };
-                    }
-                    """)
-
-                    result.append(data)
-
-                except Exception:
-                    pass
-
-            return result
-
-        # Only these 3 types
-        data = {
-
-            "url": page.url,
-
-            "title": page.title(),
-
-            "links":
-                get_elements("a"),
-
-            "inputs":
-                get_elements("input"),
-
-            "buttons":
-                get_elements("button")
-        }
-
-        # Save JSON
-        Path(filename).write_text(
-            json.dumps(
-                data,
-                indent=2,
-                ensure_ascii=False
-            ),
-            encoding="utf-8"
+    def open(self, url):
+        # New tab create karo
+        response = requests.put(
+            f"{CDP_URL}/json/new?{url}"
         )
 
-        print("✅ Page saved!")
-        print(f"📄 {Path(filename).absolute()}")
+        tab = response.json()
 
-        browser.close()
+        # WebSocket connect
+        self.ws = websocket.create_connection(
+            tab["webSocketDebuggerUrl"]
+        )
+
+        # Runtime enable
+        self.send("Runtime.enable")
+
+        time.sleep(2)
+
+    def send(self, method, params=None):
+        self.message_id += 1
+
+        message = {
+            "id": self.message_id,
+            "method": method
+        }
+
+        if params:
+            message["params"] = params
+
+        self.ws.send(json.dumps(message))
+
+        while True:
+            response = json.loads(self.ws.recv())
+
+            if response.get("id") == self.message_id:
+                return response
+
+    def click(self, selector):
+        script = f"""
+        (() => {{
+            const element = document.querySelector({json.dumps(selector)});
+
+            if (!element) {{
+                return {{
+                    success: false,
+                    error: "Element not found"
+                }};
+            }}
+
+            element.click();
+
+            return {{
+                success: true
+            }};
+        }})()
+        """
+
+        result = self.send(
+            "Runtime.evaluate",
+            {
+                "expression": script,
+                "returnByValue": True
+            }
+        )
+
+        return result
+
+    def type(self, selector, text):
+        script = f"""
+        (() => {{
+            const element = document.querySelector({json.dumps(selector)});
+
+            if (!element) {{
+                return {{
+                    success: false,
+                    error: "Element not found"
+                }};
+            }}
+
+            element.focus();
+            element.value = {json.dumps(text)};
+
+            element.dispatchEvent(
+                new Event("input", {{ bubbles: true }})
+            );
+
+            element.dispatchEvent(
+                new Event("change", {{ bubbles: true }})
+            );
+
+            return {{
+                success: true
+            }};
+        }})()
+        """
+
+        return self.send(
+            "Runtime.evaluate",
+            {
+                "expression": script,
+                "returnByValue": True
+            }
+        )
 
 
-if __name__ == "__main__":
+# --------------------------------
+# USE
+# --------------------------------
 
-    url = input("Enter URL: ").strip()
+browser = Browser()
 
-    if not url.startswith(("http://", "https://")):
-        url = "https://" + url
+browser.open("https://youtube.com")
 
-    save_page(url)
+result = browser.click("#search-button")
+
+ollama pull qwen2.5-vl:7b
+
+print(result)

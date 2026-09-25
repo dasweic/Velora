@@ -30,7 +30,7 @@ setup python environment,       suggest to use conda.
 conda create -n veloraENV python=3.11.9
 conda init bash
 source ~/.bashrc                                    //reload the terminal
-conda activate veloraENV
+conda activate veloraENV`
 
 
 ##install chromium after installing playwright module

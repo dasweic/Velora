@@ -1,18 +1,36 @@
-import json
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-with open("page.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
 
-def print_texts(obj):
-    if isinstance(obj, dict):
-        if "text" in obj:
-            print(obj["text"])
+class WebAutomation:
 
-        for value in obj.values():
-            print_texts(value)
+    def __init__(self):
+        self.driver = webdriver.Chrome()
+        self.wait = WebDriverWait(self.driver, 15)
 
-    elif isinstance(obj, list):
-        for item in obj:
-            print_texts(item)
+    def open(self, url):
+        self.driver.get(url)
 
-print_texts(data)
+    def click(self, element_id):
+        element = self.wait.until(
+            EC.element_to_be_clickable((By.ID, element_id))
+        )
+        element.click()
+
+    def close(self):
+        self.driver.quit()
+
+
+# -----------------------------
+# Example
+# -----------------------------
+
+browser = WebAutomation()
+
+browser.open("https://amazon.com")
+
+browser.click("a-page")
+
+# browser.close()
